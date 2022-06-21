@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "An e-commerce web application API",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "Amit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "is-email": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
